@@ -3,11 +3,12 @@
   "version": "2.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "npm run build:style && next",
     "server": "node lib/server",
     "build": "next build",
     "export": "next build && next export",
-    "start": "node lib/server"
+    "start": "node lib/server",
+    "build:style": "tailwind build static/source.css -o static/styles.css"
   },
   "keywords": [],
   "author": "Jorge Mir",
@@ -19,6 +20,7 @@
     "@zeit/next-mdx": "^1.2.0",
     "cookie": "^0.3.1",
     "express": "^4.16.4",
+    "frontmatter-markdown-loader": "^2.1.0",
     "isomorphic-unfetch": "^3.0.0",
     "js-cookie": "^2.2.0",
     "next": "^7.0.2",
@@ -32,8 +34,10 @@
   },
   "description": "",
   "devDependencies": {
+    "autoprefixer": "^9.6.1",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
-    "eslint-plugin-react": "^7.14.3"
+    "eslint-plugin-react": "^7.14.3",
+    "postcss-cli": "^6.1.3"
   }
 }

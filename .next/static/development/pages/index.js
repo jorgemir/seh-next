@@ -18,6 +18,7 @@ var _jsxFileName = "/Users/jmir/Sites/seh-next/components/Layout/Footer.js";
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
+    className: "Footer bg-gray-300",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
@@ -115,68 +116,71 @@ var _jsxFileName = "/Users/jmir/Sites/seh-next/components/Layout/Header.js";
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
-    className: "Header",
+    className: "Header bg-gray-300",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/logo.png",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, "Sport Event Hotels"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    alt: "Sport Event Hotels",
+    className: "h-40",
+    src: "/static/logo/svg/logo-transparent.svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 8
     },
     __self: this
   }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 11
     },
     __self: this
   }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 14
     },
     __self: this
   }, "Contact"))));
@@ -216,7 +220,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
       props = _objectWithoutProperties(_ref, ["children"]);
 
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container",
+    className: "bg-gray-300",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -267,9 +271,9 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 /***/ (function(module, exports) {
 
 module.exports = { 
-      attributes: {"title":"Awesome kitties","date":"2019-03-17T19:31:20.591Z","cats":[{"description":"Maru is a Scottish Fold from Japan, and he loves boxes.","name":"Maru (まる)"},{"description":"Lil Bub is an American celebrity cat known for her unique appearance.","name":"Lil Bub"},{"description":"Grumpy cat is an American celebrity cat known for her grumpy appearance. ","name":"Grumpy cat (Tardar Sauce)"}]},
+      attributes: {"title":"Sport Event Hotels","date":"2019-03-17T19:31:20.591Z","events":[{"description":"","name":"2020 Champions Final Istanbul"},{"description":"Lil Bub is an American celebrity cat known for her unique appearance.","name":"2020 Summer Olympics"},{"description":"Super Bowl LIV will be in Miami, Florida in February 2020","name":"2020 Superbowl Miami"}]},
     
-      html: "<p>Welcome to my awesome page about cats of the internet.</p>\n<p>This page is built with NextJS, and content is managed in Netlify CMS</p>\n",
+      html: "<p class=\"mt-2 text-gray-600 sm:text-xl sm:mt-4\">\n  Sport Event Hotels helps you get exclusive access to premium hotels near the largest sporting events around the world. If you want to go to the Super Bowl, The Masters, The World Cup, or the Summer or Winter Games, Sport Event Hotels can make sure you have the best place to stay.\n</p>\n<div class=\"mt-4 sm:mt-6\">\n  <as class=\"inline-block px-5 py-3 text-white shadow-lg rounded-lg bg-blue-400 hover:bg-blue-300 focus:outline-none focus:shadow-outline uppercase tracking-wider font-semibold text-sm sm:text-base\" href=\"#\">Contact Us</a>\n</div>",
      }
 
 /***/ }),
@@ -10646,7 +10650,8 @@ var _jsxFileName = "/Users/jmir/Sites/seh-next/pages/index.js";
 var html = _content_home_md__WEBPACK_IMPORTED_MODULE_2___default.a.html,
     _content$attributes = _content_home_md__WEBPACK_IMPORTED_MODULE_2___default.a.attributes,
     title = _content$attributes.title,
-    cats = _content$attributes.cats;
+    subtitle = _content$attributes.subtitle,
+    events = _content$attributes.events;
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
@@ -10654,49 +10659,101 @@ var html = _content_home_md__WEBPACK_IMPORTED_MODULE_2___default.a.html,
       lineNumber: 7
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "bg-gray-100 flex",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    dangerouslySetInnerHTML: {
-      __html: html
-    },
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "xl:max-w-lg xl:ml-auto",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, cats.map(function (cat, k) {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "mt-6 rounded-lg shadow-lg sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden",
+    src: "/static/four-seasons-st-petersburg.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "mt-6 text-2xl font-semibold text-gray-900 leading-tight sm:text-4xl lg:text-3xl",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "text-blue-400 text-sm sm:text-lg sm:text-4xl lg:text-3xl",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, subtitle), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    dangerouslySetInnerHTML: {
+      __html: html
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, events.map(function (event, k) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       key: k,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
+        lineNumber: 17
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13
+        lineNumber: 18
       },
       __self: this
-    }, cat.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    }, event.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14
+        lineNumber: 19
       },
       __self: this
-    }, cat.description));
-  })));
+    }, event.description));
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "hidden lg:block lg:w-1/2 lg:relative",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "absolute inset-0 h-full w-full object-cover object-center",
+    src: "/static/four-seasons-st-petersburg.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }))));
 });
     (function (Component, route) {
       if(!Component) return

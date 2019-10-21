@@ -1,14 +1,18 @@
 ---
-title: Awesome kitties
+title: Sport Event Hotels
 date: 2019-03-17T19:31:20.591Z
-cats:
-  - description: 'Maru is a Scottish Fold from Japan, and he loves boxes.'
-    name: Maru (まる)
+events:
+  - description: ''
+    name: 2020 Champions Final Istanbul 
   - description: Lil Bub is an American celebrity cat known for her unique appearance.
-    name: Lil Bub
-  - description: 'Grumpy cat is an American celebrity cat known for her grumpy appearance. '
-    name: Grumpy cat (Tardar Sauce)
+    name: 2020 Summer Olympics
+  - description: 'Super Bowl LIV will be in Miami, Florida in February 2020'
+    name: 2020 Superbowl Miami
 ---
-Welcome to my awesome page about cats of the internet. 
+<p class="mt-2 text-gray-600 sm:text-xl sm:mt-4">
+  Sport Event Hotels helps you get exclusive access to premium hotels near the largest sporting events around the world. If you want to go to the Super Bowl, The Masters, The World Cup, or the Summer or Winter Games, Sport Event Hotels can make sure you have the best place to stay.
+</p>
 
-This page is built with NextJS, and content is managed in Netlify CMS
+<div class="mt-4 sm:mt-6">
+  <as class="inline-block px-5 py-3 text-white shadow-lg rounded-lg bg-blue-400 hover:bg-blue-300 focus:outline-none focus:shadow-outline uppercase tracking-wider font-semibold text-sm sm:text-base" href="#">Contact Us</a>
+</div>

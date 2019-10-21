@@ -1,9 +1,8 @@
 import Link from 'next/link';
 
 export default () => (
-    <header className="Header">
-        <img src="/static/logo.png" />
-        <h1>Sport Event Hotels</h1>
+    <header className="Header bg-gray-300">
+        <Link href="/"><img alt="Sport Event Hotels" className="h-40" src="/static/logo/svg/logo-transparent.svg" /></Link>
         <nav>
             <Link href="/">
                 <a>Home</a>

@@ -3,7 +3,7 @@ import Header from './Header';
 import Footer from './Footer';
 
 export default ({ children, ...props }) => (
-    <div className="container">
+    <div className="bg-gray-300">
         <Head>
             <link rel="stylesheet"
             href="static/styles.css" />

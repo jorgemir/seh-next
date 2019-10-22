@@ -1,0 +1,9 @@
+5star hotel
+1,Four seasons hotel Tokyo, 1 cheme-2 Otemachi, Chiyoda-ku, Tokyo 100-0004
+2, Hilton Tokyo, 6 Chome6-2 Nishishinjuk, Shinjuku, Tokyo 160-0023
+3, Imperial Hotel Tokyo  1 Chome-1-1Uchisaiwaicho, Chiyoda, Tokyo 100-8558
+
+4 star hotel
+1,Shinagawa Prince hotel, 4 Chome-10-30 Takanawa, Minato, Tokyo 108-8611
+2,JR Blosson Shinjuku, 2 Chome-6-2, Yoyogi, Shibuya, Tokyo, 151-0053
+3, Akasaka Excel Hotel Tokyo   2-1, 4-3 Nagata-Cho, Chiyodaku, Tokyo, Tokyo-tu, 100-0014

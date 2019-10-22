@@ -2,4 +2,22 @@
 
 @tailwind components;
 
+.btn {
+    @apply inline-block px-5 py-3 text-white shadow-lg rounded-lg bg-blue-400 uppercase tracking-wider font-semibold text-sm cursor-pointer;
+}
+.btn:hover {
+    @apply bg-blue-300
+}
+.btn:focus {
+    @apply  outline-none shadow-outline
+}
+.btn:active {
+    @apply bg-blue-600
+}
+@screen sm {
+    .btn {
+        @apply text-base;
+    }
+}
+
 @tailwind utilities;

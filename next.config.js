@@ -1,11 +1,13 @@
-module.exports = {
-    webpack: (cfg) => {
-        cfg.module.rules.push(
-            {
-                test: /\.md$/,
-                use: 'frontmatter-markdown-loader'
-            }
-        )
-        return cfg;
-    }
-}
+const withCSS = require('@zeit/next-css')
+
+module.exports = withCSS({
+  webpack(config, options) {
+    config.module.rules.push(
+        {
+            test: /\.md$/,
+            use: 'frontmatter-markdown-loader'
+        }
+    )
+    return config
+  }
+})

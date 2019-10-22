@@ -1,12 +1,14 @@
 import Head from 'next/head';
 import Header from './Header';
 import Footer from './Footer';
+import '../../static/styles.css';
 
 export default ({ children, ...props }) => (
     <div className="bg-gray-300">
         <Head>
-            <link rel="stylesheet"
-            href="static/styles.css" />
+            <title>Sport Event Hotels</title>
+            <meta charSet="utf-8" />
+            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
         <Header {...props} />
         <main>{children}</main>

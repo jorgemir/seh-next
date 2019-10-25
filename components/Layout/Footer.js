@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export default () => (
-    <footer className="Footer bg-gray-300">
+    <footer className="Footer flex items-center justify-between px-4 py-3 bg-gray-300">
       <div>&copy; Sport Event Hotels</div>
       <ul>
             <li><Link href="http://wwww.twitter.com"><a>twitter</a></Link></li>

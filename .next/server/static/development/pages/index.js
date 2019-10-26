@@ -124,6 +124,7 @@ var _jsxFileName = "/Users/jmir/Sites/seh-next/components/Layout/Footer.js";
     },
     __self: this
   }, "\xA9 Sport Event Hotels"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "sm:flex sm:items-center sm:justify-between",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -246,14 +247,14 @@ function (_React$Component) {
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "render", function () {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
-        className: "Header bg-gray-300",
+        className: "Header bg-gray-300 sm:flex sm:items-center sm:justify-between sm:px-4 sm:py-3",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "flex items-center justify-between px-4 py-3 bg-gray-300",
+        className: "flex items-center justify-between px-4 py-3 sm:p-0 bg-gray-300",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 21
@@ -283,6 +284,7 @@ function (_React$Component) {
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "sm:hidden",
         onClick: _this.toggleMenu,
         __source: {
           fileName: _jsxFileName,
@@ -298,7 +300,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-        className: "h-12 w-12 fill-current",
+        className: _this.state.isActive ? 'block h-12 w-12 fill-current' : 'hidden',
         xmlns: "http://www.w3.org/2000/svg",
         viewBox: "0 0 24 24",
         __source: {
@@ -314,7 +316,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
-        "data-name": "menu",
+        "data-name": "close",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 27
@@ -330,6 +332,46 @@ function (_React$Component) {
           lineNumber: 27
         },
         __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+        d: "M13.41 12l4.3-4.29a1 1 0 1 0-1.42-1.42L12 10.59l-4.29-4.3a1 1 0 0 0-1.42 1.42l4.3 4.29-4.3 4.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l4.29-4.3 4.29 4.3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42z",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
+      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+        className: _this.state.isActive ? 'hidden' : 'bloc kh-12 w-12 fill-current',
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+        "data-name": "Layer 2",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+        "data-name": "menu",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("rect", {
+        width: "24",
+        height: "24",
+        transform: "rotate(180 12 12)",
+        opacity: "0",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("rect", {
         x: "3",
         y: "11",
@@ -339,7 +381,7 @@ function (_React$Component) {
         ry: ".95",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 28
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("rect", {
@@ -351,7 +393,7 @@ function (_React$Component) {
         ry: ".95",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 28
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("rect", {
@@ -363,62 +405,63 @@ function (_React$Component) {
         ry: ".95",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 28
         },
         __self: this
       }))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _this.state.isActive ? 'show' : 'hidden' + " px-2 pt-2 pb-4",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 31
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+        className: _this.state.isActive ? 'show' : 'hidden' + " px-2 pt-2 pb-4 sm:flex sm:p-0",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 32
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+        className: "sm:flex",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 34
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         className: "block text-gray-900 font-semibold rounded px-2 py-1 hover:bg-gray-400",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 35
         },
         __self: this
       }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
         href: "/about",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 37
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        className: "block text-gray-900 font-semibold rounded px-2 py-1 mt-1 hover:bg-gray-400",
+        className: "block text-gray-900 font-semibold rounded px-2 py-1 mt-1 hover:bg-gray-400 sm:mt-0 sm:ml-2",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 38
         },
         __self: this
       }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
         href: "/contact",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 40
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        className: "block text-gray-900 font-semibold rounded px-2 py-1 mt-1 hover:bg-gray-400",
+        className: "block text-gray-900 font-semibold rounded px-2 py-1 mt-1 hover:bg-gray-400 sm:mt-0 sm:ml-2",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 41
         },
         __self: this
       }, "Contact")))));
@@ -536,7 +579,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 /***/ (function(module, exports) {
 
 module.exports = { 
-      attributes: {"title":"Sport Event Hotels","date":"2019-03-17T19:31:20.591Z","hero":"/static/four-seasons-st-petersburg.jpg","events":[{"description":"The 2020 Champions Final Istanbul will be played at the Atatürk Olympic Stadium in Istanbul, Turkey on May 30th, 2020.","name":"2020 Champions Final Istanbul","image":"static/SEH/2020 Champions Final Istanbul /Ritz Istanbul/image001.jpg"},{"description":"The 2020 Summer Olympics will take place from July 24th to August 9th, 2020 in Tokyo, Japan.","name":"2020 Summer Olympics","image":"static/SEH/2020 Summer Olympics/Intercontinental Hotel Tokyo/image003.jpg"},{"description":"Super Bowl LIV will be in Miami, Florida in February 2020","name":"2020 Superbowl Miami","image":"static/SEH/2020 Superbowl Miami/fwdmiami2020superbowlnobuedenrochotelscombined/Screenshot (23).png"}]},
+      attributes: {"title":"Sport Event Hotels","date":"2019-03-17T19:31:20.591Z","hero":"/static/four-seasons-st-petersburg.jpg","events":[{"description":"The 2020 Champions Final Istanbul will be played at the Atatürk Olympic Stadium in Istanbul, Turkey on May 30th, 2020.","name":"2020 Champions Final Istanbul","image":"static/SEH/2020 Champions Final Istanbul /Ritz Istanbul/image001.jpg","link":"/soccer/champions-league-final/"},{"description":"The 2020 Summer Olympics will take place from July 24th to August 9th, 2020 in Tokyo, Japan.","name":"2020 Summer Olympics","image":"static/SEH/2020 Summer Olympics/Intercontinental Hotel Tokyo/image003.jpg"},{"description":"Super Bowl LIV will be in Miami, Florida in February 2020. Hotels are selling out fast, yet we can secure you the best hotels in the area. Contact us now!","name":"2020 Superbowl Miami","image":"static/SEH/2020 Superbowl Miami/fwdmiami2020superbowlnobuedenrochotelscombined/Screenshot (23).png"}]},
     
       html: "<p class=\"mt-2 text-gray-600 sm:text-xl sm:mt-4\">\n  Sport Event Hotels helps you get exclusive access to premium hotels near the largest sporting events around the world. If you want to go to the Super Bowl, The Masters, The World Cup, or the Summer or Winter Games, Sport Event Hotels can make sure you have the best place to stay.\n</p>\n<div class=\"mt-4 sm:mt-6\">\n  <as class=\"btn\" href=\"#\">Contact Us</a>\n</div>",
      }

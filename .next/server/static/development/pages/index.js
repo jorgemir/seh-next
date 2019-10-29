@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "next/link");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/jorgemir/Sites/seh-next/components/Layout/Footer.js";
+var _jsxFileName = "/Users/jmir/Sites/seh-next/components/Layout/Footer.js";
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
@@ -137,7 +137,7 @@ var _jsxFileName = "/Users/jorgemir/Sites/seh-next/components/Layout/Footer.js";
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "http://wwww.twitter.com",
+    href: "http://wwww.twitter.com/HotelsEvent",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -209,7 +209,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "next/link");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/jorgemir/Sites/seh-next/components/Layout/Header.js";
+var _jsxFileName = "/Users/jmir/Sites/seh-next/components/Layout/Header.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -500,7 +500,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer */ "./components/Layout/Footer.js");
 /* harmony import */ var _static_styles_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../static/styles.css */ "./static/styles.css");
 /* harmony import */ var _static_styles_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_styles_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/jorgemir/Sites/seh-next/components/Layout/index.js";
+var _jsxFileName = "/Users/jmir/Sites/seh-next/components/Layout/index.js";
 
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -584,7 +584,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 module.exports = { 
       attributes: {"title":"Sport Event Hotels","date":"2019-03-17T19:31:20.591Z","hero":"/static/four-seasons-st-petersburg.jpg","events":[{"description":"The 2020 Champions Final Istanbul will be played at the Atatürk Olympic Stadium in Istanbul, Turkey on May 30th, 2020.","name":"2020 Champions Final Istanbul","image":"static/SEH/2020 Champions Final Istanbul /Ritz Istanbul/image001.jpg","link":"/soccer/champions-league-final/"},{"description":"The 2020 Summer Olympics will take place from July 24th to August 9th, 2020 in Tokyo, Japan.","name":"2020 Summer Olympics","image":"static/SEH/2020 Summer Olympics/Intercontinental Hotel Tokyo/image003.jpg","link":"/olympics/2020-summer-games/"},{"description":"Super Bowl LIV will be in Miami, Florida in February 2020. Hotels are selling out fast, yet we can secure you the best hotels in the area. Contact us now!","name":"2020 Superbowl Miami","image":"static/SEH/2020 Superbowl Miami/fwdmiami2020superbowlnobuedenrochotelscombined/Screenshot (23).png","link":"/nfl/super-bowl/"}]},
     
-      html: "<p class=\"mt-2 text-gray-600 sm:text-xl sm:mt-4\">\n  Sport Event Hotels helps you get exclusive access to premium hotels near the largest sporting events around the world. If you want to go to the Super Bowl, The Masters, The World Cup, or the Summer or Winter Games, Sport Event Hotels can make sure you have the best place to stay.\n</p>\n<div class=\"mt-4 sm:mt-6\">\n  <as class=\"btn\" href=\"/contact\">Contact Us</a>\n</div>",
+      html: "<p class=\"mt-2 text-gray-600 sm:text-xl sm:mt-4\">\n  Sport Event Hotels helps you get exclusive access to premium hotels near the largest sporting events around the world. If you want to go to the Super Bowl, The Masters, The World Cup, or the Summer or Winter Games, Sport Event Hotels can make sure you have the best place to stay.\n</p>\n<div class=\"mt-4 sm:mt-6\">\n  <a class=\"btn\" href=\"/contact\">Contact Us</a>\n</div>",
      }
 
 /***/ }),
@@ -605,7 +605,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _content_home_md__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_content_home_md__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "next/link");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/jorgemir/Sites/seh-next/pages/index.js";
+var _jsxFileName = "/Users/jmir/Sites/seh-next/pages/index.js";
 
 
 

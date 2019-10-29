@@ -21,5 +21,5 @@ events:
 </p>
 
 <div class="mt-4 sm:mt-6">
-  <as class="btn" href="/contact">Contact Us</a>
+  <a class="btn" href="/contact">Contact Us</a>
 </div>

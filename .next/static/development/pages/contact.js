@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/jorgemir/Sites/seh-next/components/Layout/Footer.js";
+var _jsxFileName = "/Users/jmir/Sites/seh-next/components/Layout/Footer.js";
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
@@ -44,7 +44,7 @@ var _jsxFileName = "/Users/jorgemir/Sites/seh-next/components/Layout/Footer.js";
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "http://wwww.twitter.com",
+    href: "http://wwww.twitter.com/HotelsEvent",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -116,7 +116,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/jorgemir/Sites/seh-next/components/Layout/Header.js";
+var _jsxFileName = "/Users/jmir/Sites/seh-next/components/Layout/Header.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -407,7 +407,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer */ "./components/Layout/Footer.js");
 /* harmony import */ var _static_styles_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../static/styles.css */ "./static/styles.css");
 /* harmony import */ var _static_styles_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_styles_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/jorgemir/Sites/seh-next/components/Layout/index.js";
+var _jsxFileName = "/Users/jmir/Sites/seh-next/components/Layout/index.js";
 
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -478,6 +478,21 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
     __self: this
   })));
 });
+
+/***/ }),
+
+/***/ "./content/contact.md":
+/*!****************************!*\
+  !*** ./content/contact.md ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = { 
+      attributes: {"title":"Contact Us","date":"2019-01-25T02:38:24.000Z","lang":"en"},
+    
+      html: "",
+     }
 
 /***/ }),
 
@@ -10844,429 +10859,419 @@ __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout/index.js");
-var _jsxFileName = "/Users/jorgemir/Sites/seh-next/pages/contact.js";
+/* harmony import */ var _content_contact_md__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../content/contact.md */ "./content/contact.md");
+/* harmony import */ var _content_contact_md__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_content_contact_md__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/Users/jmir/Sites/seh-next/pages/contact.js";
 
 
+
+var html = _content_contact_md__WEBPACK_IMPORTED_MODULE_2___default.a.html,
+    title = _content_contact_md__WEBPACK_IMPORTED_MODULE_2___default.a.attributes.title;
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, "Contact"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "App",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-    name: "contact",
-    "netlify-honeypot": "human",
-    "data-netlify": "true",
-    "data-netlify-recaptcha": "true",
-    className: "ui form",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "bg-gray-100 flex",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "px-8 py-8 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, "Submit your event hotel request to procurement"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "field",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "xl:max-w-lg xl:ml-auto",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "mt-6 text-2xl font-semibold text-gray-900 leading-tight sm:text-4xl lg:text-3xl",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
-    className: "ui dividing header",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, "How many rooms do you need?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+  }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    name: "contact",
+    "netlify-honeypot": "human",
+    "data-netlify": "true",
+    "data-netlify-recaptcha": "true",
+    className: "",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, "Number of Rooms"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "field",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    type: "text",
-    name: "rooms",
-    placeholder: "Number of Rooms (Min. 15)",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "-mx-3 md:flex mb-6",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "md:w-1/2 px-3 mb-6 md:mb-0",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "uppercase tracking-wide text-black text-xs font-bold mb-2",
+    for: "company",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }, "Number of Suites"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "field",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+  }, "First Name*"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3",
+    id: "first",
     type: "text",
-    name: "suites",
-    placeholder: "Number of Suites (Min. 1)",
+    placeholder: "John",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "field",
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "hidden text-red-500 text-xs italic",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
-    className: "ui dividing header",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, "What type of hotel are you looking for?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "field",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, "Hotel Rating: "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "ui selection dropdown",
-    tabindex: "0",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
-    name: "rating[]",
+  }, "Please fill out this field."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "md:w-1/2 px-3",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-    value: "3",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "uppercase tracking-wide text-black text-xs font-bold mb-2",
+    for: "title",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
     },
     __self: this
-  }, "3 star"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-    value: "4",
+  }, "Last Name*"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3",
+    id: "last",
+    type: "text",
+    placeholder: "Doe",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 31
     },
     __self: this
-  }, "4 star"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-    selected: true,
-    value: "5",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, "5 star"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "field",
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "hidden",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
-    className: "ui dividing header",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, "Meeting/function space?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "two fields",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "field ui selection dropdown",
-    tabindex: "0",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
-    name: "rating[]",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-    value: "3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, "Yes"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-    selected: true,
-    value: "5",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, "No"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "field",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    type: "text",
-    name: "lastname",
-    placeholder: "# of guests",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "hide",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 36
     },
     __self: this
   }, "Don\u2019t fill this out if you're human: ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     name: "human",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 36
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "field",
+    className: "-mx-3 md:flex mb-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 39
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "md:w-1/2 px-3 mb-6 md:mb-0",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "uppercase tracking-wide text-black text-xs font-bold mb-2",
+    for: "company",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 41
     },
     __self: this
-  }, "Name:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "two fields",
+  }, "Company Name*"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3",
+    id: "company",
+    type: "text",
+    placeholder: "Netboard",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "hidden text-red-500 text-xs italic",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, "Please fill out this field."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "md:w-1/2 px-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "uppercase tracking-wide text-black text-xs font-bold mb-2",
+    for: "title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, "Title*"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3",
+    id: "title",
+    type: "text",
+    placeholder: "Software Engineer",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 55
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "field",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    type: "text",
-    name: "firstname",
-    placeholder: "First Name",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "field",
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "-mx-3 md:flex mb-2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 59
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    type: "text",
-    name: "lastname",
-    placeholder: "Last Name",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "md:w-1/2 px-3 mb-6 md:mb-0",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 60
     },
     __self: this
-  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "field",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "uppercase tracking-wide text-black text-xs font-bold mb-2",
+    for: "numberOfRooms",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, "Number of Rooms*"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 64
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+    className: "w-full bg-gray-200 border border-gray-200 text-black text-xs py-3 px-4 pr-8 mb-3 rounded",
+    id: "numberOfRooms",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 65
     },
     __self: this
-  }, "Contact Information:"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    type: "text",
-    name: "company",
-    placeholder: "Company Name",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 66
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "field",
+  }, "10-15"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 67
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "two fields",
+  }, "16-20"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 68
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "field",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    type: "number",
-    name: "phone",
-    placeholder: "Phone Number",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "field",
+  }, "More than 20")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "md:w-1/2 px-3",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 72
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    type: "email",
-    name: "email",
-    placeholder: "Email Address",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "uppercase tracking-wide text-black text-xs font-bold mb-2",
+    for: "numberofSuites",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 73
     },
     __self: this
-  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "field",
+  }, "Number of Suites*"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+    className: "w-full bg-gray-200 border border-gray-200 text-black text-xs py-3 px-4 pr-8 mb-3 rounded",
+    id: "numberofSuites",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 77
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }, "3-5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79
+    },
+    __self: this
+  }, "6-10"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }, "More than 10")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "md:w-1/2 px-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "uppercase tracking-wide text-black text-xs font-bold mb-2",
+    for: "occupancy",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 85
     },
     __self: this
-  }, "Message: ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  }, "Occupancy*"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 88
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
-    name: "message",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+    className: "w-full bg-gray-200 border border-gray-200 text-black text-xs py-3 px-4 pr-8 mb-3 rounded",
+    id: "occupancy",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 89
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
+  }, "10-20"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91
+    },
+    __self: this
+  }, "21-40"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }, "More than 40"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     "data-netlify-recaptcha": "true",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 98
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 100
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "uppercase tracking-wide text-black text-xs font-bold mb-2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }, "Message:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+    className: "w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3",
+    name: "message",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "-mx-3 md:flex mt-2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 107
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "md:w-full px-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "ui button",
-    type: "submit",
+    className: "md:w-full bg-gray-900 text-white font-bold py-2 px-4 border-b-4 hover:border-b-2 border-gray-500 hover:border-gray-100 rounded-full",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 109
     },
     __self: this
-  }, "Send")))));
+  }, "Submit"))))))));
 });
     (function (Component, route) {
       if(!Component) return

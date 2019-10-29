@@ -1,31 +1,17 @@
-import Link from 'next/link';
+import content from '../content/about.md';
 import Layout from '../components/Layout';
+
+let { html , attributes:{ title } } = content;
 
 export default () => (
     <Layout>
-        <h1>About Sport Event Hotels</h1>
-               
-        <p>EventPro Productions, Incentives and Hospitality</p>
-
-        <p>Is an Award-Winning Production company with over 35 years of Experience.</p>
-
-        <p>Specializing in Incentives, Entertainment, Corporate and Hospitality events for Live Events, Sporting Events and Concert Events.</p>
-
-        <p>With our years of experience no detail is left undone.</p>
-
-        <p>Hotels, Logistics, Transportation, Hospitality Parties, and Team Building .We do it all</p>
-
-        <p>With Eventpro Productions many years in business and the excellent Hotel Relationships we have built up over this time. We are known for excelling at sourcing and procuring hotels worldwide .</p>
-
-        <p>Sporting and Concert Packages to the Biggest events in the world.</p>
-
-        <p>We have a hand-picked staff of the most experienced Event Planners , Producers and On-Site Management Staff in the industry.</p>
-
-        <p>We stand behind our reputation to create an event with memories that will last a lifetime.</p>
-        <p>
-            <Link prefetch href="/contact">
-                <a>Contact Us</a>
-            </Link>
-        </p>
+        <div className="bg-gray-100 flex">
+            <div className="px-8 py-8 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
+                <div className="xl:max-w-lg xl:ml-auto">
+                    <h1 className="mt-6 text-2xl font-semibold text-gray-900 leading-tight sm:text-4xl lg:text-3xl">{title}</h1>
+                    <div dangerouslySetInnerHTML={{ __html: html }}/>
+                </div>
+            </div>
+        </div>
     </Layout>
 )

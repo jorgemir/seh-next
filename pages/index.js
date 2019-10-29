@@ -1,7 +1,8 @@
 import Layout from '../components/Layout';
 import content from '../content/home.md';
+import Link from 'next/link';
 
-let { html , attributes:{ title, subtitle, hero, events } } = content;
+let { html , attributes:{ title, subtitle, hero, link, events } } = content;
 
 export default () => (
     <Layout>
@@ -19,16 +20,17 @@ export default () => (
             </div>
         </div>
 
-        <div className="antialiased text-gray-900">
+        <div className="antialiased sm:flex text-gray-900 mt-8">
             { events.map((event, k) => (
                 <div key={k} className="bg-white border rounded-lg overflow-hidden max-w-lg inline-block mx-2">
                     <div className="relative bg-red-500 pb-1/3">
-                        <img className="absolute h-full w-full object-cover" alt={event.name} src={event.image} />
+                    <Link href={link}><a><img className="absolute h-full w-full object-cover" alt={event.name} src={event.image} /></a></Link>
                     </div>
                     
                     <div className="p-6">
                         <h4 className="font-semibold text-lg">{event.name}</h4>
                         <p className="text-gray-600 text-sm">{event.description}</p>
+                        <Link href={link}><a className="block mt-4">View Event</a></Link>                    
                     </div>
                 </div>
             ))}

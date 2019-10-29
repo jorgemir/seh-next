@@ -3,20 +3,21 @@ title: About Sport Event Hotels
 date: 2019-01-25T02:38:24.000Z
 lang: en
 ---
-EventPro Productions, Incentives and Hospitality
 
-Is an Award-Winning Production company with over 35 years of Experience.
+<p class="copy">EventPro Productions, Incentives and Hospitality</p>
 
-Specializing in Incentives, Entertainment, Corporate and Hospitality events for Live Events, Sporting Events and Concert Events.
+<p class="copy">Is an Award-Winning Production company with over 35 years of Experience.</p>
 
-With our years of experience no detail is left undone. 
+<p class="copy">Specializing in Incentives, Entertainment, Corporate and Hospitality events for Live Events, Sporting Events and Concert Events.</p>
 
-Hotels, Logistics, Transportation, Hospitality Parties, and Team Building .We do it all
+<p class="copy">With our years of experience no detail is left undone. </p>
 
-With Eventpro Productions many years in business and the excellent Hotel Relationships we have built up over this time. We are known for excelling at sourcing and procuring hotels worldwide .
+<p class="copy">Hotels, Logistics, Transportation, Hospitality Parties, and Team Building .We do it all</p>
 
-Sporting and Concert Packages to the Biggest events in the world.
+<p class="copy">With Eventpro Productions many years in business and the excellent Hotel Relationships we have built up over this time. We are known for excelling at sourcing and procuring hotels worldwide .</p>
 
-We have a hand-picked staff of the most experienced Event Planners , Producers and On-Site Management Staff in the industry.
+<p class="copy">Sporting and Concert Packages to the Biggest events in the world.</p>
 
-We stand behind our reputation to create an event with memories that will last a lifetime.
+<p class="copy">We have a hand-picked staff of the most experienced Event Planners, Producers and On-Site Management Staff in the industry.</p>
+
+<p class="copy">We stand behind our reputation to create an event with memories that will last a lifetime.</p>

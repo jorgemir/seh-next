@@ -2,6 +2,17 @@
 
 @tailwind components;
 
+
+.copy {
+    @apply mt-2 text-gray-600;
+}
+
+@screen sm {
+    .copy {
+        @apply text-xl mt-4;
+    }
+}
+
 .btn {
     @apply inline-block px-5 py-3 text-white shadow-lg rounded-lg bg-blue-400 uppercase tracking-wider font-semibold text-sm cursor-pointer;
 }

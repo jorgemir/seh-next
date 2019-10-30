@@ -24,13 +24,13 @@ export default () => (
             { events.map((event, k) => (
                 <div key={k} className="bg-white border rounded-lg overflow-hidden max-w-lg inline-block mx-2">
                     <div className="relative bg-red-500 pb-1/3">
-                    <Link href={link}><a><img className="absolute h-full w-full object-cover" alt={event.name} src={event.image} /></a></Link>
+                    <Link href={event.link}><a><img className="absolute h-full w-full object-cover" alt={event.name} src={event.image} /></a></Link>
                     </div>
                     
                     <div className="p-6">
                         <h4 className="font-semibold text-lg">{event.name}</h4>
                         <p className="text-gray-600 text-sm">{event.description}</p>
-                        <Link href={link}><a className="block mt-4">View Event</a></Link>                    
+                        <Link href={event.link}><a className="block mt-4">View Event</a></Link>                    
                     </div>
                 </div>
             ))}

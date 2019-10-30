@@ -14,7 +14,7 @@ export default () => (
 
                     <div className="-mx-3 md:flex mb-6">
                         <div className="md:w-1/2 px-3 mb-6 md:mb-0">
-                            <label className="uppercase tracking-wide text-black text-xs font-bold mb-2" for="company">
+                            <label className="uppercase tracking-wide text-black text-xs font-bold mb-2" htmlFor="first">
                             First Name*
                             </label>
                             <input className="w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3" id="first" type="text" placeholder="John" />
@@ -25,7 +25,7 @@ export default () => (
                             </div>
                         </div>
                         <div className="md:w-1/2 px-3">
-                            <label className="uppercase tracking-wide text-black text-xs font-bold mb-2" for="title">
+                            <label className="uppercase tracking-wide text-black text-xs font-bold mb-2" htmlFor="last">
                             Last Name*
                             </label>
                             <input className="w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3" id="last" type="text" placeholder="Doe" />
@@ -38,7 +38,7 @@ export default () => (
 
                         <div className="-mx-3 md:flex mb-6">
                         <div className="md:w-1/2 px-3 mb-6 md:mb-0">
-                            <label className="uppercase tracking-wide text-black text-xs font-bold mb-2" for="company">
+                            <label className="uppercase tracking-wide text-black text-xs font-bold mb-2" htmlFor="company">
                             Company Name*
                             </label>
                             <input className="w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3" id="company" type="text" placeholder="Netboard" />
@@ -49,7 +49,7 @@ export default () => (
                             </div>
                         </div>
                         <div className="md:w-1/2 px-3">
-                            <label className="uppercase tracking-wide text-black text-xs font-bold mb-2" for="title">
+                            <label className="uppercase tracking-wide text-black text-xs font-bold mb-2" htmlFor="title">
                             Title*
                             </label>
                             <input className="w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3" id="title" type="text" placeholder="Software Engineer" />
@@ -58,7 +58,7 @@ export default () => (
 
                         <div className="-mx-3 md:flex mb-2">
                         <div className="md:w-1/2 px-3 mb-6 md:mb-0">
-                            <label className="uppercase tracking-wide text-black text-xs font-bold mb-2" for="numberOfRooms">
+                            <label className="uppercase tracking-wide text-black text-xs font-bold mb-2" htmlFor="numberOfRooms">
                             Number of Rooms*
                             </label>
                             <div>
@@ -70,7 +70,7 @@ export default () => (
                             </div>
                         </div>
                         <div className="md:w-1/2 px-3">
-                            <label className="uppercase tracking-wide text-black text-xs font-bold mb-2" for="numberofSuites">
+                            <label className="uppercase tracking-wide text-black text-xs font-bold mb-2" htmlFor="numberofSuites">
                             Number of Suites*
                             </label>
                             <div>
@@ -82,7 +82,7 @@ export default () => (
                             </div>
                         </div>
                         <div className="md:w-1/2 px-3">
-                            <label className="uppercase tracking-wide text-black text-xs font-bold mb-2" for="occupancy">
+                            <label className="uppercase tracking-wide text-black text-xs font-bold mb-2" htmlFor="occupancy">
                             Occupancy*
                             </label>
                             <div>

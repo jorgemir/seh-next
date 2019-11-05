@@ -9,6 +9,7 @@ export default ({ children, ...props }) => (
             <title>Sport Event Hotels</title>
             <meta charSet="utf-8" />
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
         <Header {...props} />
         <main>{children}</main>

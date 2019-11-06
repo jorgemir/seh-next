@@ -16,13 +16,13 @@ module.exports = withCSS({
     const paths = []
     Object.entries(content).forEach(([filename, fileContent]) => {
 
-      const trimmedName = filename.substring(0, filename.length - 3)
+      // const trimmedName = filename.substring(0, filename.length - 3)
 
       // the filename becomes the slug
-      paths[`/${fileContent.category}/${trimmedName}`] = { 
+      paths[`/${fileContent.category}/${filename}`] = { 
         page: `/${fileContent.category}/[slug]`, 
         query: { 
-          slug: trimmedName, 
+          slug: filename, 
           ...fileContent 
         } 
       }

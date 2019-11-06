@@ -21,10 +21,10 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Lang", name: "lang", widget: "string"}
       - {label: "Tags", name: "tags", widget: "string"}
+      - {label: "Event Date(s)", name: "eventdate", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Event Date", name: "eventdate", widget: "markdown"}
   - label: "Pages"
     name: "pages"
     files:
@@ -33,7 +33,6 @@ collections:
         file: "content/about.md"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Date, name: date, widget: string}
           - {label: "Lang", name: "lang", widget: "string"}
           - {label: "Publish Date", name: "date", widget: "datetime"}
           - {label: "Body", name: "body", widget: "markdown"}
@@ -42,7 +41,6 @@ collections:
         file: "content/contact.md"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Date, name: date, widget: string}
           - {label: "Lang", name: "lang", widget: "string"}
           - {label: "Publish Date", name: "date", widget: "datetime"}
           - {label: "Body", name: "body", widget: "markdown"}

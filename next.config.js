@@ -19,7 +19,7 @@ module.exports = withCSS({
       const trimmedName = filename.substring(0, filename.length - 3)
 
       // the filename becomes the slug
-      paths[`/blog/post/${trimmedName}`] = { 
+      paths[`/${fileContent.category}/${trimmedName}`] = { 
         page: `/${fileContent.category}/[slug]`, 
         query: { 
           slug: trimmedName, 
@@ -27,7 +27,7 @@ module.exports = withCSS({
         } 
       }
     })
-    console.log('paths: ',paths);
+    
     return {
       ...defaultPathMap,
       ...paths

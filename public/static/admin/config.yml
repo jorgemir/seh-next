@@ -17,13 +17,13 @@ collections:
     slug: "{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Category", name: "category", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Lang", name: "lang", widget: "string"}
       - {label: "Tags", name: "tags", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Category", name: "category", widget: "markdown"}
       - {label: "Event Date", name: "eventdate", widget: "markdown"}
   - label: "Pages"
     name: "pages"

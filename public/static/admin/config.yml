@@ -30,14 +30,14 @@ collections:
     name: "hotels"
     folder: "content/hotels"
     widget: relation
-    create: true # Allow users to create new documents in this collection
-    slug: "{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
-      fields:
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: Name, name: name, widget: string}
-        - {label: Description, name: description, widget: string}
-        - {label: "Hotel Image", name: "thumbnail", widget: "image"}
-        - {label: Link, name: link, widget: string}
+    create: true
+    slug: "{{title}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: Name, name: name, widget: string}
+      - {label: Description, name: description, widget: string}
+      - {label: "Hotel Image", name: "thumbnail", widget: "image"}
+      - {label: Link, name: link, widget: string}
   - label: "Pages"
     name: "pages"
     files:

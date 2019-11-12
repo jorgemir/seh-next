@@ -25,21 +25,8 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}  
       - {label: "Body", name: "body", widget: "markdown"}
-  - label: Data
-    name: data
-    files:
-      - label: Hotels
-        name: hotel-data
-        file: _data/hotels.yml
-        fields:
-          - label: Categories
-            name: categories
-            widget: list
-          - label: Source
-            name: source
-            widget: string
+      - {label: "Hotels", label_singular: "Hotel", name: "hotels", widget: "relation", collection: "hotels", searchFields: ["name", "description"], valueField: "name"
   - label: "Hotels"
-    label_singular: "Hotel"
     name: "hotels"
     folder: "content/hotels"
     fields:

@@ -7,19 +7,11 @@ thumbnail: /images/uploads/super-bowl-iv.jpg
 category: nfl
 eventdate: 'Sunday, February 2 2020'
 hero: '/static/four-seasons-st-petersburg.jpg'
-events:
-  - description: 'The 2020 Champions Final Istanbul will be played at the Atatürk Olympic Stadium in Istanbul, Turkey on May 30th, 2020.'
-    name: 2020 Champions Final Istanbul 
+hotels:
+  - description: '5-Star Hotel delivers the unique chemistry and perfect balance of luxury, fun, craft and theater'
+    name: Eden Roc Hotel 
     image: '/static/hotels/image001.jpg'
-    link: '/hotel-rooms/champions-league-final'
-  - description: 'The 2020 Summer Olympics will take place from July 24th to August 9th, 2020 in Tokyo, Japan.'
-    name: 2020 Summer Olympics
-    image: '/static/hotels/image003.jpg'
-    link: '/hotel-rooms/summer-games'
-  - description: 'Super Bowl LIV will be in Miami, Florida in February 2020. Hotels are selling out fast, yet we can secure you the best hotels in the area. Contact us now!'
-    name: 2020 Superbowl Miami
-    image: '/static/hotels/screenshot.png'
-    link: '/hotel-rooms/super-bowl'
+    link: '/contact?event=super-bowl'
 ---
 
 The 2020 Super Bowl will be the 54th Super Bowl in NFL history. The event will take place in Miami, Florida in the Hard Rock Stadium located in Miami Gardens, Florida. 

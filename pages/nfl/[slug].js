@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Post = ({ blogpost }) => {
     if (!blogpost) return <div>not found</div>
 
-    let { html , attributes:{ title, subtitle, hero, link, events } } = blogpost.default;
+    let { html , attributes:{ title, subtitle, hero, link, hotels } } = blogpost.default;
 
     return (
         <Layout>
@@ -23,16 +23,16 @@ const Post = ({ blogpost }) => {
             </div>
 
             <div className="antialiased sm:flex text-gray-900 mt-8">
-                { events.map((event, k) => (
+                { hotels.map((hotel, k) => (
                     <div key={k} className="bg-white border rounded-lg overflow-hidden max-w-lg inline-block mx-2">
                         <div className="relative bg-red-500 pb-1/3">
-                        <Link href={event.link}><a><img className="absolute h-full w-full object-cover" alt={event.name} src={event.image} /></a></Link>
+                        <Link href={hotel.link}><a><img className="absolute h-full w-full object-cover" alt={hotel.name} src={hotel.image} /></a></Link>
                         </div>
                         
                         <div className="p-6">
-                            <h4 className="font-semibold text-lg">{event.name}</h4>
-                            <p className="text-gray-600 text-sm">{event.description}</p>
-                            <Link href={event.link}><a className="block mt-4">View Event</a></Link>                    
+                            <h4 className="font-semibold text-lg">{hotel.name}</h4>
+                            <p className="text-gray-600 text-sm">{hotel.description}</p>
+                            <Link href={hotel.link}><a className="block mt-4">Contact Us Now</a></Link>
                         </div>
                     </div>
                 ))}

@@ -1,17 +1,12 @@
 ---
+category: nfl
 title: Super Bowl LIV
 lang: en
 tags: football
+eventdate: 'Sunday, February 2 2020'
 date: '2019-01-31T09:00:37-08:00'
 thumbnail: /images/uploads/super-bowl-iv.jpg
-category: nfl
-eventdate: 'Sunday, February 2 2020'
-hero: '/static/four-seasons-st-petersburg.jpg'
-hotels:
-  - description: '5-Star Hotel delivers the unique chemistry and perfect balance of luxury, fun, craft and theater'
-    name: Eden Roc Hotel 
-    image: '/static/hotels/image001.jpg'
-    link: '/contact?event=super-bowl'
+hotels: Eden Roc Hotel
 ---
 
 The 2020 Super Bowl will be the 54th Super Bowl in NFL history. The event will take place in Miami, Florida in the Hard Rock Stadium located in Miami Gardens, Florida. 

@@ -57,7 +57,7 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"}
       - label: "Home Page"
         name: "home"
-        file: "content/cohomentact.md"
+        file: "content/home.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: "Lang", name: "lang", widget: "string"}
@@ -65,6 +65,7 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Hero Image", name: "hero", widget: "image"}
           - events:
+            name: "events"
             - {label: Name, name: name, widget: string}
             - {label: Description, name: description, widget: string}
             - {label: Thumbnail, name: thumbnail, widget: image}

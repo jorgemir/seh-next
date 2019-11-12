@@ -45,7 +45,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     },
     __self: this
   }, __jsx("a", {
-    href: "http://wwww.twitter.com/HotelsEvent",
+    href: "http://www.twitter.com/HotelsEvent",
     className: "block text-gray-900 font-semibold rounded px-2 py-1 hover:bg-gray-400",
     __source: {
       fileName: _jsxFileName,

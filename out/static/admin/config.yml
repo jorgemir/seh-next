@@ -23,8 +23,21 @@ collections:
       - {label: "Tags", name: "tags", widget: "string"}
       - {label: "Event Date(s)", name: "eventdate", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}  
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Hotels", label_singular: "Hotel", name: "hotels", widget: "relation", collection: "hotels", searchFields: ["name", "description"], valueField: "name"
+  - label: "Hotels"
+    name: "hotels"
+    folder: "content/hotels"
+    fields:
+      - label: Source
+        name: source
+        widget: relation
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Description, name: description, widget: string}
+          - {label: "Hotel Image", name: "thumbnail", widget: "image"}
+          - {label: Link, name: link, widget: string}
   - label: "Pages"
     name: "pages"
     files:

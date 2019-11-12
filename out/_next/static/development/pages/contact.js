@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/nfl/[slug].js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/contact.js"],{
 
 /***/ "./components/Layout/Footer.js":
 /*!*************************************!*\
@@ -45,7 +45,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     },
     __self: this
   }, __jsx("a", {
-    href: "http://wwww.twitter.com/HotelsEvent",
+    href: "http://www.twitter.com/HotelsEvent",
     className: "block text-gray-900 font-semibold rounded px-2 py-1 hover:bg-gray-400",
     __source: {
       fileName: _jsxFileName,
@@ -465,38 +465,18 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 /***/ }),
 
-/***/ "./content/events lazy recursive ^\\.\\/.*\\.md$":
-/*!***********************************************************!*\
-  !*** ./content/events lazy ^\.\/.*\.md$ namespace object ***!
-  \***********************************************************/
+/***/ "./content/contact.md":
+/*!****************************!*\
+  !*** ./content/contact.md ***!
+  \****************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-var map = {
-	"./super-bowl.md": [
-		"./content/events/super-bowl.md",
-		1
-	]
-};
-function webpackAsyncContext(req) {
-	if(!__webpack_require__.o(map, req)) {
-		return Promise.resolve().then(function() {
-			var e = new Error("Cannot find module '" + req + "'");
-			e.code = 'MODULE_NOT_FOUND';
-			throw e;
-		});
-	}
-
-	var ids = map[req], id = ids[0];
-	return __webpack_require__.e(ids[1]).then(function() {
-		return __webpack_require__.t(id, 7);
-	});
-}
-webpackAsyncContext.keys = function webpackAsyncContextKeys() {
-	return Object.keys(map);
-};
-webpackAsyncContext.id = "./content/events lazy recursive ^\\.\\/.*\\.md$";
-module.exports = webpackAsyncContext;
+module.exports = { 
+      attributes: {"title":"Contact Us","lang":"en"},
+    
+      html: "",
+     }
 
 /***/ }),
 
@@ -925,58 +905,6 @@ function _assertThisInitialized(self) {
   }
 
   return self;
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js ***!
-  \*****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _asyncToGenerator; });
-/* harmony import */ var _core_js_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
-/* harmony import */ var _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_promise__WEBPACK_IMPORTED_MODULE_0__);
-
-
-function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
-  try {
-    var info = gen[key](arg);
-    var value = info.value;
-  } catch (error) {
-    reject(error);
-    return;
-  }
-
-  if (info.done) {
-    resolve(value);
-  } else {
-    _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a.resolve(value).then(_next, _throw);
-  }
-}
-
-function _asyncToGenerator(fn) {
-  return function () {
-    var self = this,
-        args = arguments;
-    return new _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a(function (resolve, reject) {
-      var gen = fn.apply(self, args);
-
-      function _next(value) {
-        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
-      }
-
-      function _throw(err) {
-        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
-      }
-
-      _next(undefined);
-    });
-  };
 }
 
 /***/ }),
@@ -5887,21 +5815,21 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnfl%2F%5Bslug%5D&absolutePagePath=%2FUsers%2Fjorgemir%2FSites%2Fseh-next%2Fpages%2Fnfl%2F%5Bslug%5D.js!./":
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnfl%2F%5Bslug%5D&absolutePagePath=%2FUsers%2Fjorgemir%2FSites%2Fseh-next%2Fpages%2Fnfl%2F%5Bslug%5D.js ***!
-  \*************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=%2FUsers%2Fjorgemir%2FSites%2Fseh-next%2Fpages%2Fcontact.js!./":
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=%2FUsers%2Fjorgemir%2FSites%2Fseh-next%2Fpages%2Fcontact.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/nfl/[slug]", function() {
-      var mod = __webpack_require__(/*! ./pages/nfl/[slug].js */ "./pages/nfl/[slug].js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/contact", function() {
+      var mod = __webpack_require__(/*! ./pages/contact.js */ "./pages/contact.js")
       if(true) {
-        module.hot.accept(/*! ./pages/nfl/[slug].js */ "./pages/nfl/[slug].js", function() {
-          if(!next.router.components["/nfl/[slug]"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/nfl/[slug].js */ "./pages/nfl/[slug].js")
-          next.router.update("/nfl/[slug]", updatedPage)
+        module.hot.accept(/*! ./pages/contact.js */ "./pages/contact.js", function() {
+          if(!next.router.components["/contact"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/contact.js */ "./pages/contact.js")
+          next.router.update("/contact", updatedPage)
         })
       }
       return mod
@@ -11915,254 +11843,444 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./pages/nfl/[slug].js":
-/*!*****************************!*\
-  !*** ./pages/nfl/[slug].js ***!
-  \*****************************/
+/***/ "./pages/contact.js":
+/*!**************************!*\
+  !*** ./pages/contact.js ***!
+  \**************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
-/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Layout */ "./components/Layout/index.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout/index.js");
+/* harmony import */ var _content_contact_md__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../content/contact.md */ "./content/contact.md");
+/* harmony import */ var _content_contact_md__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_content_contact_md__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/Users/jorgemir/Sites/seh-next/pages/contact.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-var _jsxFileName = "/Users/jorgemir/Sites/seh-next/pages/nfl/[slug].js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
-
-
-
-var Post = function Post(_ref) {
-  var blogpost = _ref.blogpost;
-  if (!blogpost) return __jsx("div", {
+var html = _content_contact_md__WEBPACK_IMPORTED_MODULE_2___default.a.html,
+    title = _content_contact_md__WEBPACK_IMPORTED_MODULE_2___default.a.attributes.title;
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, "not found");
-  var _blogpost$default = blogpost["default"],
-      html = _blogpost$default.html,
-      _blogpost$default$att = _blogpost$default.attributes,
-      title = _blogpost$default$att.title,
-      subtitle = _blogpost$default$att.subtitle,
-      hero = _blogpost$default$att.hero,
-      link = _blogpost$default$att.link,
-      events = _blogpost$default$att.events;
-  return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 7
     },
     __self: this
   }, __jsx("div", {
     className: "bg-gray-100 flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 8
     },
     __self: this
   }, __jsx("div", {
     className: "px-8 py-8 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 9
     },
     __self: this
   }, __jsx("div", {
     className: "xl:max-w-lg xl:ml-auto",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, __jsx("h1", {
+    className: "mt-6 text-2xl font-semibold text-gray-900 leading-tight sm:text-4xl lg:text-3xl",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, title), __jsx("form", {
+    name: "contact",
+    "netlify-honeypot": "human",
+    "data-netlify": "true",
+    "data-netlify-recaptcha": "true",
+    className: "",
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, __jsx("img", {
-    className: "rounded-lg shadow-lg sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden",
-    src: hero,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }), __jsx("h1", {
-    className: "mt-6 text-2xl font-semibold text-gray-900 leading-tight sm:text-4xl lg:text-3xl",
+  }, __jsx("div", {
+    className: "-mx-3 md:flex mb-6",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }, title), __jsx("h3", {
-    className: "text-blue-400 text-sm sm:text-lg sm:text-4xl lg:text-3xl",
+  }, __jsx("div", {
+    className: "md:w-1/2 px-3 mb-6 md:mb-0",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }, subtitle), __jsx("div", {
-    dangerouslySetInnerHTML: {
-      __html: html
-    },
+  }, __jsx("label", {
+    className: "uppercase tracking-wide text-black text-xs font-bold mb-2",
+    htmlFor: "first",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }))), __jsx("div", {
-    className: "hidden lg:block lg:w-1/2 lg:relative",
+  }, "First Name*"), __jsx("input", {
+    className: "w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3",
+    id: "first",
+    type: "text",
+    placeholder: "John",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
-  }, __jsx("img", {
-    className: "absolute inset-0 h-full w-full object-cover object-center",
-    src: hero,
+  }), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }))), __jsx("div", {
-    className: "antialiased sm:flex text-gray-900 mt-8",
+  }, __jsx("span", {
+    className: "hidden text-red-500 text-xs italic",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 22
     },
     __self: this
-  }, events.map(function (event, k) {
-    return __jsx("div", {
-      key: k,
-      className: "bg-white border rounded-lg overflow-hidden max-w-lg inline-block mx-2",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 27
-      },
-      __self: this
-    }, __jsx("div", {
-      className: "relative bg-red-500 pb-1/3",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 28
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-      href: event.link,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 29
-      },
-      __self: this
-    }, __jsx("a", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 29
-      },
-      __self: this
-    }, __jsx("img", {
-      className: "absolute h-full w-full object-cover",
-      alt: event.name,
-      src: event.image,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 29
-      },
-      __self: this
-    })))), __jsx("div", {
-      className: "p-6",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 32
-      },
-      __self: this
-    }, __jsx("h4", {
-      className: "font-semibold text-lg",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 33
-      },
-      __self: this
-    }, event.name), __jsx("p", {
-      className: "text-gray-600 text-sm",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 34
-      },
-      __self: this
-    }, event.description), __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-      href: event.link,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 35
-      },
-      __self: this
-    }, __jsx("a", {
-      className: "block mt-4",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 35
-      },
-      __self: this
-    }, "View Event"))));
-  })));
-};
-
-Post.getInitialProps =
-/*#__PURE__*/
-function () {
-  var _ref3 = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  /*#__PURE__*/
-  _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(_ref2) {
-    var query, slug, blogpost;
-    return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
-      while (1) {
-        switch (_context.prev = _context.next) {
-          case 0:
-            query = _ref2.query;
-            slug = query.slug;
-            _context.next = 4;
-            return __webpack_require__("./content/events lazy recursive ^\\.\\/.*\\.md$")("./".concat(slug, ".md"))["catch"](function () {
-              return null;
-            });
-
-          case 4:
-            blogpost = _context.sent;
-            return _context.abrupt("return", {
-              blogpost: blogpost
-            });
-
-          case 6:
-          case "end":
-            return _context.stop();
-        }
-      }
-    }, _callee);
-  }));
-
-  return function (_x) {
-    return _ref3.apply(this, arguments);
-  };
-}();
-
-/* harmony default export */ __webpack_exports__["default"] = (Post);
+  }, "Please fill out this field."))), __jsx("div", {
+    className: "md:w-1/2 px-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, __jsx("label", {
+    className: "uppercase tracking-wide text-black text-xs font-bold mb-2",
+    htmlFor: "last",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "Last Name*"), __jsx("input", {
+    className: "w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3",
+    id: "last",
+    type: "text",
+    placeholder: "Doe",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }))), __jsx("p", {
+    className: "hidden",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, __jsx("label", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, "Don\u2019t fill this out if you're human: ", __jsx("input", {
+    name: "human",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }))), __jsx("div", {
+    className: "-mx-3 md:flex mb-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "md:w-1/2 px-3 mb-6 md:mb-0",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, __jsx("label", {
+    className: "uppercase tracking-wide text-black text-xs font-bold mb-2",
+    htmlFor: "company",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, "Company Name*"), __jsx("input", {
+    className: "w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3",
+    id: "company",
+    type: "text",
+    placeholder: "Netboard",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, __jsx("span", {
+    className: "hidden text-red-500 text-xs italic",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, "Please fill out this field."))), __jsx("div", {
+    className: "md:w-1/2 px-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, __jsx("label", {
+    className: "uppercase tracking-wide text-black text-xs font-bold mb-2",
+    htmlFor: "title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, "Title*"), __jsx("input", {
+    className: "w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3",
+    id: "title",
+    type: "text",
+    placeholder: "Software Engineer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }))), __jsx("div", {
+    className: "-mx-3 md:flex mb-2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "md:w-1/2 px-3 mb-6 md:mb-0",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, __jsx("label", {
+    className: "uppercase tracking-wide text-black text-xs font-bold mb-2",
+    htmlFor: "numberOfRooms",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, "Number of Rooms*"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, __jsx("select", {
+    className: "w-full bg-gray-200 border border-gray-200 text-black text-xs py-3 px-4 pr-8 mb-3 rounded",
+    id: "numberOfRooms",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  }, __jsx("option", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66
+    },
+    __self: this
+  }, "10-15"), __jsx("option", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    },
+    __self: this
+  }, "16-20"), __jsx("option", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68
+    },
+    __self: this
+  }, "More than 20")))), __jsx("div", {
+    className: "md:w-1/2 px-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72
+    },
+    __self: this
+  }, __jsx("label", {
+    className: "uppercase tracking-wide text-black text-xs font-bold mb-2",
+    htmlFor: "numberofSuites",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, "Number of Suites*"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    },
+    __self: this
+  }, __jsx("select", {
+    className: "w-full bg-gray-200 border border-gray-200 text-black text-xs py-3 px-4 pr-8 mb-3 rounded",
+    id: "numberofSuites",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }, __jsx("option", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }, "3-5"), __jsx("option", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79
+    },
+    __self: this
+  }, "6-10"), __jsx("option", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }, "More than 10")))), __jsx("div", {
+    className: "md:w-1/2 px-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
+  }, __jsx("label", {
+    className: "uppercase tracking-wide text-black text-xs font-bold mb-2",
+    htmlFor: "occupancy",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }, "Occupancy*"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }, __jsx("select", {
+    className: "w-full bg-gray-200 border border-gray-200 text-black text-xs py-3 px-4 pr-8 mb-3 rounded",
+    id: "occupancy",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, __jsx("option", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
+  }, "10-20"), __jsx("option", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91
+    },
+    __self: this
+  }, "21-40"), __jsx("option", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }, "More than 40"))))), __jsx("div", {
+    "data-netlify-recaptcha": "true",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: this
+  }, __jsx("label", {
+    className: "uppercase tracking-wide text-black text-xs font-bold mb-2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }, "Message:"), __jsx("textarea", {
+    className: "w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3",
+    name: "message",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "-mx-3 md:flex mt-2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 107
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "md:w-full px-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108
+    },
+    __self: this
+  }, __jsx("button", {
+    className: "md:w-full bg-gray-900 text-white font-bold py-2 px-4 border-b-4 hover:border-b-2 border-gray-500 hover:border-gray-100 rounded-full",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 109
+    },
+    __self: this
+  }, "Submit"))))))));
+});
 
 /***/ }),
 
-/***/ 2:
-/*!*****************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fnfl%2F%5Bslug%5D&absolutePagePath=%2FUsers%2Fjorgemir%2FSites%2Fseh-next%2Fpages%2Fnfl%2F%5Bslug%5D.js ***!
-  \*****************************************************************************************************************************************************/
+/***/ 3:
+/*!***********************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fcontact&absolutePagePath=%2FUsers%2Fjorgemir%2FSites%2Fseh-next%2Fpages%2Fcontact.js ***!
+  \***********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fnfl%2F%5Bslug%5D&absolutePagePath=%2FUsers%2Fjorgemir%2FSites%2Fseh-next%2Fpages%2Fnfl%2F%5Bslug%5D.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnfl%2F%5Bslug%5D&absolutePagePath=%2FUsers%2Fjorgemir%2FSites%2Fseh-next%2Fpages%2Fnfl%2F%5Bslug%5D.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fcontact&absolutePagePath=%2FUsers%2Fjorgemir%2FSites%2Fseh-next%2Fpages%2Fcontact.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=%2FUsers%2Fjorgemir%2FSites%2Fseh-next%2Fpages%2Fcontact.js!./");
 
 
 /***/ }),
@@ -12178,5 +12296,5 @@ module.exports = dll_223d66aecdb47d8ddbd6;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=[slug].js.map
+},[[3,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=contact.js.map

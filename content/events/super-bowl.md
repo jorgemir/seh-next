@@ -5,7 +5,8 @@ lang: en
 tags: football
 eventdate: 'Sunday, February 2 2020'
 date: '2019-01-31T09:00:37-08:00'
-thumbnail: /images/uploads/super-bowl-iv.jpg
+thumbnail: '/static/hotels/image001.jpg'
+link: '/nfl/super-bowl'
 hotels:
   - description: 'Warm and inviting with a splash of excitement, & is the newest hotel lining the scenic Gulf shore.'
     name: Wyndham Grand Clearwater

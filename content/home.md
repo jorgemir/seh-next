@@ -1,7 +1,7 @@
 ---
 title: Sport Event Hotels
 hero: '/static/four-seasons-st-petersburg.jpg'
-subtitle: The best place to get hotels for groups and corporations.
+subtitle: A website for large groups and corporations to buy exclusive high end hotels to the world's largest sporting events.
 events:
   - description: 'The 2020 Champions Final Istanbul will be played at the Atatürk Olympic Stadium in Istanbul, Turkey on May 30th, 2020.'
     name: 2020 Champions Final Istanbul 

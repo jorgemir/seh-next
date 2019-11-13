@@ -2,7 +2,6 @@ const withCSS = require('@zeit/next-css')
 const jdown = require('jdown')
 const marked = require('marked');
 
-// See https://marked.js.org/#/USING_PRO.md#renderer
 const renderer = new marked.Renderer();
 const slugger = new marked.Slugger();
 

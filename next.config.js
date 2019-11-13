@@ -27,7 +27,6 @@ module.exports = withCSS({
     Object.entries(content).forEach(([filename, fileContent]) => {
 
       const titleSlug = slugger.slug(fileContent.title)
-      // const trimmedName = slugger.slug(filename)
 
       // the filename becomes the slug
       paths[`/${fileContent.category}/${titleSlug}`] = { 
@@ -38,7 +37,7 @@ module.exports = withCSS({
         } 
       }
     })
-    console.log('paths: ', paths);
+    
     return {
       ...defaultPathMap,
       ...paths

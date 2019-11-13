@@ -22,7 +22,7 @@ const importEventPosts = async () => {
 export default class Home extends Component {
   static async getInitialProps() {
     const eventList = await importEventPosts();
-    console.log('eventList: ', eventList);
+
     return { eventList };
   }
   render() {

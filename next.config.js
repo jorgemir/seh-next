@@ -1,5 +1,10 @@
 const withCSS = require('@zeit/next-css')
 const jdown = require('jdown')
+const marked = require('marked');
+
+// See https://marked.js.org/#/USING_PRO.md#renderer
+const renderer = new marked.Renderer();
+const slugger = new marked.Slugger();
 
 module.exports = withCSS({
   webpack(config, options) {
@@ -12,22 +17,28 @@ module.exports = withCSS({
     return config
   },
   exportPathMap: async function(defaultPathMap) {
-    const content = await jdown('./content/events')
+    const content = await jdown('./content/events', {
+        fileInfo: true,
+        markdown: {renderer},
+      }
+    )
+
     const paths = []
     Object.entries(content).forEach(([filename, fileContent]) => {
 
-      // const trimmedName = filename.substring(0, filename.length - 3)
+      const titleSlug = slugger.slug(fileContent.title)
+      // const trimmedName = slugger.slug(filename)
 
       // the filename becomes the slug
-      paths[`/${fileContent.category}/${filename}`] = { 
+      paths[`/${fileContent.category}/${titleSlug}`] = { 
         page: `/${fileContent.category}/[slug]`, 
         query: { 
-          slug: filename, 
+          slug: titleSlug, 
           ...fileContent 
         } 
       }
     })
-    
+    console.log('paths: ', paths);
     return {
       ...defaultPathMap,
       ...paths

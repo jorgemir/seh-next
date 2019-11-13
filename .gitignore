@@ -8,3 +8,5 @@ _site
 .env
 .next
 .DS_Store
+/npm-debug.log
+out/

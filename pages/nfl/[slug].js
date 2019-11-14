@@ -30,9 +30,24 @@ class Post extends Component {
     render() {
         if (!this.props.blogpost) return <div>not found</div>;
 
+        console.log('this.props: ', this.props);
+
+        const { slug } = this.props.url.query;
+
+        console.log('slug: ', slug);
+
         const { html , attributes:{ title, subtitle, hero } } = this.props.blogpost.default;
 
         const { hotelList } = this.props;
+
+        const trimmedList = []
+        
+        hotelList.map(
+            hotel => {
+                if (hotel.attributes.event === slug) {
+                    trimmedList.push(hotel);
+                }
+            });
 
         return (
             <Layout>
@@ -51,16 +66,16 @@ class Post extends Component {
                 </div>
 
                 <div className="bottom-content">
-                    { hotelList.map((hotel, k) => (
+                    { trimmedList.map((hotel, k) => (
                         <div key={k} className="bottom-module">
                             <div className="module-img-container">
-                                <Link href={hotel.default.attributes.link}><a><img className="module-img" alt={hotel.default.attributes.name} src={hotel.default.attributes.image} /></a></Link>
+                                <Link href={hotel.attributes.link}><a><img className="module-img" alt={hotel.attributes.name} src={hotel.attributes.image} /></a></Link>
                             </div>
                             
                             <div className="p-6">
-                                <h4 className="font-semibold text-lg">{hotel.default.attributes.name}</h4>
-                                <p className="text-gray-600 text-sm">{hotel.default.attributes.description}</p>
-                                <Link href={hotel.default.attributes.link}><a className="block mt-4">Contact Us Now</a></Link>
+                                <h4 className="font-semibold text-lg">{hotel.attributes.name}</h4>
+                                <p className="text-gray-600 text-sm">{hotel.attributes.description}</p>
+                                <Link href={hotel.attributes.link}><a className="block mt-4">Contact Us Now</a></Link>
                             </div>
                         </div>
                     ))}

@@ -23,6 +23,7 @@ module.exports = withCSS({
     )
 
     const paths = []
+    
     Object.entries(content).forEach(([filename, fileContent]) => {
 
       const titleSlug = slugger.slug(fileContent.title)
